@@ -7,4 +7,4 @@
 | [HW2]() |Greedy、Tree| <p align="left">   |
 | [HW3]() |Binary Search| <p align="left">  |
 | [HW4]() |Graph/BFS/DFS| <p align="left">  |
-| [HW5]() |Stack/Heap| <p align="left">     |
+| [HW5]() |Stack、Heap| <p align="left">     |
