@@ -10,4 +10,5 @@
 | [HW5]() |Stack、Heap| <p align="left">     |
 
 # 其他LeetCode題目
-* [415 Add Strings](https://leetcode.com/problems/add-strings)
+* [415 Add Strings 題目](https://leetcode.com/problems/add-strings)
+* [415 Add Strings 題解](https://github.com/chenangel89/DS/blob/main/%E5%85%B6%E4%BB%96LeetCode%E9%A1%8C%E7%9B%AE/415.%20Add%20Strings%E8%A7%A3%E9%A1%8C.md)
