@@ -1,4 +1,4 @@
-```python
+```C
 char * addStrings(char * A, char * B){
     int lenA = strlen(A);
     int lenB = strlen(B);
