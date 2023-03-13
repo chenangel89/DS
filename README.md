@@ -10,4 +10,4 @@
 | [HW5]() |Stack、Heap| <p align="left">     |
 
 # 其他LeetCode題目
-* [424 Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)
+* [415 Add Strings]([https://leetcode.com/problems/longest-repeating-character-replacement](https://leetcode.com/problems/add-strings))
