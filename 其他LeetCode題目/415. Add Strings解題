@@ -1,3 +1,4 @@
+```python
 char * addStrings(char * A, char * B){
     int lenA = strlen(A);
     int lenB = strlen(B);
@@ -32,4 +33,4 @@ char * addStrings(char * A, char * B){
 
     return sum;
 }
-
+```
