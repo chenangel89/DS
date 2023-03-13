@@ -1,4 +1,3 @@
-```c
 int maxSum(int** grid, int gridSize, int* gridColSize){
     int max_sum = 0;
     for (int i = 1; i <= gridSize - 2; i++) {
@@ -14,4 +13,4 @@ int maxSum(int** grid, int gridSize, int* gridColSize){
     }
     return max_sum;
 }
-```
+
