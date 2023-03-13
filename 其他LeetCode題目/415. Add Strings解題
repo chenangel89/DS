@@ -1,36 +1,13 @@
-```C
-char * addStrings(char * A, char * B){
-    int lenA = strlen(A);
-    int lenB = strlen(B);
-    int maxLen = lenA > lenB ? lenA : lenB;
-
-    int carry = 0;
-    int digitA, digitB, digitSum;
-
-    char* sum = (char*) malloc((maxLen + 2) * sizeof(char));
-    if (sum == NULL) {
-        printf("Error: Memory allocation failed.\n");
-        exit(1);
-    }
-
-    sum[maxLen + 1] = '\0';
-
-    for (int i = 0; i < maxLen; i++) {
-        digitA = i < lenA ? A[lenA - 1 - i] - '0' : 0;
-        digitB = i < lenB ? B[lenB - 1 - i] - '0' : 0;
-
-        digitSum = digitA + digitB + carry;
-
-        sum[maxLen - i] = (digitSum % 10) + '0';
-        carry = digitSum / 10;
-    }
-
-    if (carry > 0) {
-        sum[0] = carry + '0';
-    } else {
-        memmove(sum, sum + 1, maxLen + 1);
-    }
-
-    return sum;
-}
+```python
+g = Graph(9)
+g.graph = [[0,4,0,0,0,0,0,8,0],
+           [4,0,8,0,0,0,0,11,0],
+           [0,8,0,7,0,4,0,0,2],
+           [0,0,7,0,9,14,0,0,0],
+           [0,0,0,9,0,10,0,0,0],
+           [0,0,4,14,10,0,2,0,0],
+           [0,0,0,0,0,2,0,1,6],
+           [8,11,0,0,0,0,1,0,7],
+           [0,0,2,0,0,0,6,7,0]]
+g.Dijkstra(0)
 ```
