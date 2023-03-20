@@ -1,4 +1,4 @@
-``` c=
+```c=
 int maxSum(int** grid, int gridSize, int* gridColSize){
     int max_sum = 0;
     for (int i = 1; i <= gridSize - 2; i++) {
@@ -15,6 +15,7 @@ int maxSum(int** grid, int gridSize, int* gridColSize){
     return max_sum;
 }
 ```
+
 這段程式碼是一個求解二維矩陣中 hourglass 的和的函式，其中 hourglass 指的是一個由七個數字組成的形狀，中間一行有三個數字，上下各有兩行，每行有兩個數字，形如下圖所示：
 ```
 a b c
